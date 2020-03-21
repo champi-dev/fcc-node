@@ -2,16 +2,19 @@
   "name": "fcc-learn-npm-package-json",
   "author": "Daniel Sarmiento Cordero",
   "description": "Learning npm with fcc",
-  "keywords": ["this", "is", "freecodecamp"],
+  "keywords": [
+    "this",
+    "is",
+    "freecodecamp"
+  ],
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.14.0",
-    "moment": "~2.10.2"
+    "express": "^4.14.0"
   },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "export PORT=5000 && node server.js"
   },
   "engines": {
     "node": "8.11.2"
